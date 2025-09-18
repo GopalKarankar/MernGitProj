@@ -29,7 +29,7 @@ export const AuthProvider = ({children}) =>{
 
         try{
             
-            const response = await fetch(`${BACK_END_URI}/api/auth/user`,{
+            const response = await fetch(`https://merngitproj.onrender.com/api/auth/user`,{
                 method:"GET",
                 headers:{
                     Authorization:authorizationToken,
@@ -55,7 +55,7 @@ export const AuthProvider = ({children}) =>{
 
         try{
 
-            const response = await fetch(`${BACK_END_URI}/api/data/service`,{
+            const response = await fetch(`https://merngitproj.onrender.com/api/data/service`,{
                 methos:"GET",
             });
 
