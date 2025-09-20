@@ -13,7 +13,7 @@ app.use(express.json());
 
 
 app.use(cors({
-  origin: "http://localhost:5173", // Vite default port
+  origin: "https://merngitprojfrontend.onrender.com", // Vite default port
   methods: ["GET","POST","PUT","DELETE","PATCH"],
   credentials:true,
 }));
